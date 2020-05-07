@@ -2,9 +2,9 @@
 
 SpanBERTa is a transformer language model for Spanish. SpanBERTa is of the same size as BERT-Base and is trained on 18 GB of [OSCAR’s Spanish corpus](https://oscar-corpus.com/) following the pretraining approach specified in [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf).
 
-## Related Articles:
-- Pretrained SpanBERTa from scratch: Blog Post, Google Colab
-- Fine-tuning SpanBERTa for NER on CoNLL-2002
+## Related Articles
+- [Tutorial: Pretraining SpanBERTa from scratch](https://colab.research.google.com/drive/1mXWYYkB9UjRdklPVSDvAcUDralmv3Pgv)
+- [Tutorial: Fine-tuning SpanBERTa for NER on CoNLL-2002](https://colab.research.google.com/drive/1ezuE7wC7Fa21Wu3fvzRffx2m14CAySS1#scrollTo=LhKZ3vItVBzi)
 
 ## About the Model
 |Module| Download |
@@ -17,6 +17,7 @@ The model uses a Byte-level BPE tokenizer with a vocabulary size of 50265 sub-wo
 Training loss: [tensorboard](https://tensorboard.dev/experiment/4wOFJBwPRBK9wjKE6F32qQ/#scalars)
 
 ## Usage
+The model weights can be loaded using `transformers` library by Hugging Face.
 
 ```python
 from transformers import AutoTokenizer, AutoModelWithLMHead
@@ -25,7 +26,7 @@ tokenizer = AutoTokenizer.from_pretrained("skimai/spanberta-base-cased")
 model = AutoModelWithLMHead.from_pretrained("skimai/spanberta-base-cased")
 ```
 
-Using pipeline:
+Example with `pipeline`:
 
 ```python
 from transformers import pipeline
