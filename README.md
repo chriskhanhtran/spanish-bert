@@ -26,7 +26,7 @@ tokenizer = AutoTokenizer.from_pretrained("skimai/spanberta-base-cased")
 model = AutoModelWithLMHead.from_pretrained("skimai/spanberta-base-cased")
 ```
 
-Example with `pipeline`:
+Example using `pipeline`:
 
 ```python
 from transformers import pipeline
