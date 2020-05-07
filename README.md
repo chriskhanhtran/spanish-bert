@@ -33,8 +33,8 @@ from transformers import pipeline
 
 fill_mask = pipeline(
     "fill-mask",
-    model="chriskhanhtran/spanberta",
-    tokenizer="chriskhanhtran/spanberta"
+    model="skimai/spanberta-base-cased",
+    tokenizer="skimai/spanberta-base-cased"
 )
 
 fill_mask("Lavarse frecuentemente las manos con agua y <mask>.")
