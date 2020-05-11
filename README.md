@@ -4,7 +4,7 @@ SpanBERTa is a transformer language model for Spanish. SpanBERTa is of the same 
 
 ## Related Articles
 - [Tutorial: Pretraining SpanBERTa from scratch](https://colab.research.google.com/drive/1mXWYYkB9UjRdklPVSDvAcUDralmv3Pgv)
-- [Tutorial: Fine-tuning SpanBERTa for NER on CoNLL-2002](https://colab.research.google.com/drive/1ezuE7wC7Fa21Wu3fvzRffx2m14CAySS1#scrollTo=LhKZ3vItVBzi)
+- [Tutorial: Finetuning SpanBERTa for NER on CoNLL-2002](https://colab.research.google.com/drive/1ezuE7wC7Fa21Wu3fvzRffx2m14CAySS1#scrollTo=LhKZ3vItVBzi)
 
 ## About the Model
 |Module| Download |
